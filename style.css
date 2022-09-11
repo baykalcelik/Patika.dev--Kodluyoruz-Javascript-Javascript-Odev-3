@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+.menu {
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+
+
+
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.btn-item {
+  margin-left: 15px;
+}
+
+
+/* added area */
+
+.btn-style{
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  cursor:pointer;
+  border: 1px solid black;
+  transition: all 0.5s;
+
+}
+
+.btn-style:hover{
+  outline: none;
+  background-color: black;
+  color:white;
+
+
+}
+
+.btn-style:active{
+  outline: none;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+
+
+}
+
+.btn-style:focus{
+  outline: none;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+
+
+}
+
+/* added area */
+
+
+
+
+
+.menu-items {
+  display: flex;
+}
+
+
+
+.menu-card{
+  display: flex;
+  flex-basis: 50%;
+  gap:1rem;
+  margin-bottom: 40px;
+}
+
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+}
+
+
+.menu-info {
+  width: 100%;
+}
+
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+h4 {
+  color: #e00a00;
+}
+
+
+.menu-text {
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
